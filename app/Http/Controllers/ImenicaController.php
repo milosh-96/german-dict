@@ -14,7 +14,7 @@ class ImenicaController extends Controller
      */
     public function index()
     {
-        return Imenica::take(30);
+        return Imenica::take(30)->get();
     }
 
     /**
